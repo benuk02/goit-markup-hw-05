@@ -532,8 +532,31 @@ img {
   transform: translate(-50%, -50%);
   top: 50%;
   left: 50%;
+}
+
+
+.modal-close-button {
+  border: 1px solid rgba(0, 0, 0, 0.10);
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  line-height: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  top: 24px;
+  right: 24px;
 
 }
 
+.close-svg-button {
+  fill: #2E2F42; 
+}
+
+.close-svg-button:hover, 
+.close-svg-button:focus {
+  fill: #FFFFFF;
+
+}
 
 /* Backdrop */
