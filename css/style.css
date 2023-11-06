@@ -528,7 +528,7 @@ img {
   height: 584px;
   background-color: #FCFCFC;
   border-radius: 4px;
-  position: relative;
+  position: absolute;
   transform: translate(-50%, -50%);
   top: 50%;
   left: 50%;
@@ -538,6 +538,7 @@ img {
   display: block;
   }
 .input-form-field-container {
+  position: relative;
 }
 .input-form-field-svg {
   position: absolute;
