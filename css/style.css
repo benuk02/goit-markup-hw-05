@@ -5,7 +5,6 @@
 
 button {
   cursor: pointer;
-  border: none;
 }
 
 .underline {
@@ -535,43 +534,16 @@ img {
   left: 50%;
 }
 
-.modal-container {
-  padding: 24px;
-  width: 100%;
-  height: 100%;
-  position: relative;
+.form-field {
+  display: block;
+  }
+.input-form-field-container {
 }
-
-.close-button {
-  position: absolute;
-  right: 24px;
-  top: 24px;
-  height: 24px;
-  width: 24px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50%;
-  border-color: orange;
-  margin-bottom: 24px;
-  ;
-}
-.backdrop-text {
-  color: #2E2F42;
-    text-align: center;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.02;
-    width: 360px;
-}
-
-.input-container-form {
-  position: relative;
-}
-.svg-field-form {
+.input-form-field-svg {
   position: absolute;
 }
+
+
 
 
 
