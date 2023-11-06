@@ -553,8 +553,30 @@ img {
   align-items: center;
   border-radius: 50%;
   border-color: orange;
-  outline: none;
+  margin-bottom: 24px;
+  ;
 }
+.backdrop-text {
+  color: #2E2F42;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02;
+    width: 360px;
+}
+
+.input-container-form {
+  position: relative;
+}
+.svg-field-form {
+  position: absolute;
+}
+
+
+
+
+
 
 
 
