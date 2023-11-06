@@ -5,6 +5,7 @@
 
 button {
   cursor: pointer;
+  border: none;
 }
 
 .underline {
@@ -552,6 +553,7 @@ img {
   align-items: center;
   border-radius: 50%;
   border-color: orange;
+  outline: none;
 }
 
 
