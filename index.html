@@ -512,45 +512,61 @@
         <button
           class="close-button button"
           type="button"
-          height="24"
-          width="24"
         >
           <svg class="close-btn-svg" height="8" width="8">
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
         </button>
-        <p class="backdrop-text">Leave your contacts and we will call you back</p>
+        <p class="backdrop-text">
+          Leave your contacts and we will call you back
+        </p>
         <form class="form-field">
           <div class="form-field-wrapper">
             <label class="contact-form-field-label" for="user-name">
               Name
             </label>
             <div class="input-form-field-container">
-              <input class="input-form-field-contact" type="text" name="user_name" id="user-name" required
-                pattern="[a-zA-Zа-яА-ЯіІїЇйЙєЄʼ]+" title="Dima" />
+              <input
+                class="input-form-field-contact"
+                type="text"
+                name="user_name"
+                id="user-name"
+                required
+                pattern="[a-zA-Zа-яА-ЯіІїЇйЙєЄʼ]+"
+                title="Dima"
+              />
               <svg class="input-form-field-svg" height="18" width="18">
                 <use href="./images/icons.svg#icon-person"></use>
               </svg>
             </div>
           </div>
           <div class="form-field-wrapper">
-            <label class="contact-form-label" for="user-phone">
-              Phone
-            </label>
+            <label class="contact-form-label" for="user-phone"> Phone </label>
             <div class="input-form-field-container">
-              <input class="input-form-field-contact" type="tel" name="user_phone" id="user-phone" required
-                pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}" title="xxx-xxx-xx-xx" />
+              <input
+                class="input-form-field-contact"
+                type="tel"
+                name="user_phone"
+                id="user-phone"
+                required
+                pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
+                title="xxx-xxx-xx-xx"
+              />
               <svg class="input-form-field-svg" height="18" width="24">
                 <use href="./images/icons.svg#icon-phone"></use>
               </svg>
             </div>
           </div>
           <div class="form-field-wrapper">
-            <label class="contact-form-label" for="user-email">
-              Email
-            </label>
+            <label class="contact-form-label" for="user-email"> Email </label>
             <div class="input-form-field-container">
-              <input class="input-form-field-contact" type="email" name="user_email" id="user-email" required />
+              <input
+                class="input-form-field-contact"
+                type="email"
+                name="user_email"
+                id="user-email"
+                required
+              />
               <svg class="input-form-field-svg" height="18" width="24">
                 <use href="./images/icons.svg#icon-email"></use>
               </svg>
@@ -560,10 +576,39 @@
             <label class="review-form-field-label" for="user-comment">
               Comment
             </label>
-            <textarea class="review-form-message" name="user_comment" id="user-comment" placeholder="Text input"></textarea>
+            <textarea
+              class="review-form-message"
+              name="user_comment"
+              id="user-comment"
+              placeholder="Text input"
+            ></textarea>
+          </div>
+          <div class="form-checkbox-wrapper">
+            <input
+              class="checkbox-policy"
+              type="checkbox"
+              name="user_policy"
+              value="true"
+              id="user-policy"
+              required
+            />
+            <label class="form-checkbox-label" for="user-policy">
+              <span class="fake-checkbox">
+                <svg
+                  class="checkbox-click-icon"
+                  width="16"
+                  height="16"
+                >
+                  <use href="./images/icons.svg#icon-click"></use>
+                </svg>
+              </span>
+              I accept the terms and conditions of the 
+              <a class="privacy-policy-link accent-color" href=""
+                >Privacy Policy</a
+              >
+            </label>
           </div>
         </form>
-
       </div>
     </div>
     <!-- Backdrop -->
