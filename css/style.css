@@ -556,6 +556,15 @@ img {
   display: block;
   margin-bottom: 4px;
 }
+.input-form-field-contact:focus {
+  border-color: #4d5ae5;
+  outline-color: transparent;
+  outline-offset: 4px;
+}
+
+.form-field-wrapper {
+  margin-bottom: 8px;
+}
 
 .input-form-field-container {
   position: relative;
@@ -566,6 +575,7 @@ img {
   border-radius: 4px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   padding-left: 38px;
+
 }
 .input-form-field-svg {
   position: absolute;
@@ -574,12 +584,38 @@ img {
   left: 16px;
   top: 50%;
   transform: translateY(-50%);
+}
 
+.input-form-field-contact:focus + .input-form-field-svg {
+  fill: #4d5ae5;
 }
 
 .review-form-field-label {
   display: block;
-  margin-bottom: 30px;
+  margin-bottom: 4px;
 }
 
+.review-form-message {
+  color: rgba(46, 47, 66, 0.4);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 0.86;
+  letter-spacing: 0.04;
+  width: 100%;
+  height: 120px;
+  border-radius: 4px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  resize: none;
+  padding: 8px 16px;
+}
+
+.review-form-message::placeholder {
+  color: rgba(46, 47, 66, 0.40);
+}
+
+.review-form-message:focus {
+  border-color: #4d5ae5;
+  outline-color:transparent;
+  outline-offset: 4px;
+}
 /* Backdrop */
