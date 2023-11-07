@@ -522,7 +522,7 @@
         </p>
         <form class="form-field">
           <div class="form-field-wrapper">
-            <label class="contact-form-field-label" for="user-name">
+            <label class="contact-form-label" for="user-name">
               Name
             </label>
             <div class="input-form-field-container">
@@ -585,7 +585,7 @@
           </div>
           <div class="form-checkbox-wrapper">
             <input
-              class="checkbox-policy"
+              class="checkbox-policy "
               type="checkbox"
               name="user_policy"
               value="true"
@@ -593,20 +593,23 @@
               required
             />
             <label class="form-checkbox-label" for="user-policy">
-              <span class="fake-checkbox">
+              <span class="fake-checkbox visually-hidden">
                 <svg
                   class="checkbox-click-icon"
-                  width="16"
-                  height="16"
+                  width="10"
+                  height="8"
                 >
-                  <use href="./images/icons.svg#icon-click"></use>
+                  <use href="./images/icons.svg#icon-vector"></use>
                 </svg>
               </span>
-              I accept the terms and conditions of the 
-              <a class="privacy-policy-link accent-color" href=""
-                >Privacy Policy</a
-              >
+              <span class="checkbox-text">
+                I accept the terms and conditions of the
+                <a class="privacy-policy-link" href="">Privacy Policy</a>
+              </span>
             </label>
+          </div>
+          <div class="button-wrapper">
+            <button class="form-field-send-button" type="submit"><span class="send-button-customisation">Send</span></button>
           </div>
         </form>
       </div>
