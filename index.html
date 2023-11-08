@@ -502,6 +502,24 @@
             </li>
           </ul>
         </div>
+        <div class="footer-input-container">
+          <div class="footer-input-wrapper">
+            <form class="footer-form-text-field">
+              <div class="footer-label-wrapper">
+                <label class="footer-field-label"> 
+                  Subscribe 
+                <input class="input-footer-text-field"
+                placeholder="E-mail" type="email" id="email-address" name="email-address" required />
+                </label>
+              </div>
+            </form>
+            <button class="button-svg-icon"><span class="footer-svg-icon-span">Subscribe</span>
+              <svg height="24" width="24"class="footer-subscribe-icon">
+                <use href="./images/icons.svg#icon-telegram"></use>
+              </svg>
+            </button>
+          </div>
+        </div>
       </div>
     </footer>
     <!-- Footer -->
@@ -509,10 +527,7 @@
     <!-- Backdrop -->
     <div class="backdrop">
       <div class="modal">
-        <button
-          class="close-button button"
-          type="button"
-        >
+        <button class="close-button button" type="button">
           <svg class="close-btn-svg" height="8" width="8">
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
@@ -522,9 +537,7 @@
         </p>
         <form class="form-field">
           <div class="form-field-wrapper">
-            <label class="contact-form-label" for="user-name">
-              Name
-            </label>
+            <label class="contact-form-label" for="user-name"> Name </label>
             <div class="input-form-field-container">
               <input
                 class="input-form-field-contact"
@@ -552,7 +565,7 @@
                 pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
                 title="xxx-xxx-xx-xx"
               />
-              <svg class="input-form-field-svg" height="24" width="24">
+              <svg class="input-form-field-svg" height="24" width="18">
                 <use href="./images/icons.svg#icon-phone"></use>
               </svg>
             </div>
@@ -567,13 +580,13 @@
                 id="user-email"
                 required
               />
-              <svg class="input-form-field-svg" height="24" width="24">
+              <svg class="input-form-field-svg" height="24" width="18">
                 <use href="./images/icons.svg#icon-email"></use>
               </svg>
             </div>
           </div>
           <div class="input-form-field-container">
-            <label class="" for="user-comment">
+            <label class="contact-form-label" for="user-comment">
               Comment
             </label>
             <textarea
@@ -594,11 +607,7 @@
             />
             <label class="form-checkbox-label" for="user-privacy">
               <span class="fake-checkbox">
-                <svg
-                  class="checkbox-click-icon"
-                  width="10"
-                  height="8"
-                >
+                <svg class="checkbox-click-icon" width="10" height="8">
                   <use href="./images/icons.svg#icon-vector"></use>
                 </svg>
               </span>
@@ -609,7 +618,9 @@
             </label>
           </div>
           <div class="button-wrapper">
-            <button class="form-field-send-button" type="submit"><span class="send-button-customisation">Send</span></button>
+            <button class="form-field-send-button" type="submit">
+              <span class="send-button-customisation">Send</span>
+            </button>
           </div>
         </form>
       </div>
